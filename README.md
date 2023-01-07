@@ -9,11 +9,11 @@
 
         $ sudo apt-get install rrdtool
         
-3. คำสั่งติดตั้งโปรแกรม SNMP 
+3. คำสั่งติดตั้งโปรแกรม snmp 
   
         $ sudo apt-get install snmp snmpd
         
-4. คำสั่งให้ SNMP เริ่มการทำงาน 
+4. คำสั่งให้ snmp เริ่มการทำงาน 
   
         $ sudo service snmpd start                    //For SysVinit Systems
         $ sudo systemctl start snmpd.service          //For systemd Systems
