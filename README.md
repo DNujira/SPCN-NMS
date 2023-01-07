@@ -326,16 +326,37 @@
   
   รูปตัวอย่าง
   
-  ![31](https://user-images.githubusercontent.com/98762543/211158530-80e0ef06-75e0-4e50-aa25-c668d55907db.PNG)
+  ![40](https://user-images.githubusercontent.com/98762543/211161007-7fee833c-b344-4c12-97a8-4c158691e6f0.PNG)
   
   วิธี Create devices 
   
   รูปตัวอย่าง
   
+  ![31](https://user-images.githubusercontent.com/98762543/211158530-80e0ef06-75e0-4e50-aa25-c668d55907db.PNG)
   
+  ![32](https://user-images.githubusercontent.com/98762543/211158531-62ec09a3-8c5c-412e-91e2-0027c180ef27.PNG)
+  
+  ![33](https://user-images.githubusercontent.com/98762543/211158532-f12082b9-9f4b-4606-b2fc-9eebebb76e4d.PNG)
+  
+  วิธี Create graphs 
+  
+  ![34](https://user-images.githubusercontent.com/98762543/211158534-6251f662-4895-4aff-911c-04a6d6aa65c1.PNG)
+  
+  ![35](https://user-images.githubusercontent.com/98762543/211158535-cf6b76d3-1a39-4203-a186-7b0797e91d88.PNG)
 
-
-                
+   
+  
+  วิธี ลง plugin thold ให้เข้าไปที่ /var/www/html/cacti/plugins ให้นำไฟล์ที่โหลดมาจาก github วางไว้ในนี้ ขั้นต่อไปให้ไปที่ plugin และกด install จากนั้นจะเห็น thold ด้านบน ซึ่งเป็นplugnที่ถูกเพิ่มเข้ามา 
+  
+  รูปตัวอย่าง
+  
+  ![38](https://user-images.githubusercontent.com/98762543/211158540-3434492d-ad4d-4a05-ae8f-59a981b90f94.PNG)
+  
+  ![39](https://user-images.githubusercontent.com/98762543/211158541-4a2e2ca0-a303-476e-90b6-7590eb341f9d.PNG)
+  
+  ![36](https://user-images.githubusercontent.com/98762543/211158536-60e0c0de-8f65-4c91-ae00-d6ed5b7ec37c.PNG)
+  
+  ![37](https://user-images.githubusercontent.com/98762543/211158539-ff1c9d70-be4f-421b-8d90-0316a25a282a.PNG)
 
       
 
