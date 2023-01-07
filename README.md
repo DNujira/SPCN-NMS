@@ -200,9 +200,10 @@
 
  10. ใช้คำสั่งต่อไปนี้ 
         
-        nano /etc/apache2/sites-available/cacti.conf
+         nano /etc/apache2/sites-available/cacti.conf
+         
         
-    นำคำสั่งด้านล่างนี้ไปวางในไฟล์ /etc/apache2/sites-available/cacti.conf
+   นำคำสั่งด้านล่างนี้ไปวางในไฟล์ /etc/apache2/sites-available/cacti.conf
     
         Alias /cacti /var/www/html/cacti
  
@@ -232,12 +233,18 @@
  
          DirectoryIndex index.php
         </Directory>
+        
+        
+   รูปตัวอย่าง
+   
+   ![13](https://user-images.githubusercontent.com/98762543/211158508-0cf01513-19f8-4bac-97f4-e5ba2da72d78.PNG)
 
-    บันทึกและใช้คำสั่งต่อไปนี้เพื่อเข้าไปที่ host file
+
+   บันทึกและใช้คำสั่งต่อไปนี้เพื่อเข้าไปที่ host file
         
         a2ensite cacti
         
-    ใช้คำสั่งต่อไปนี้เพื่อ restart apache
+   ใช้คำสั่งต่อไปนี้เพื่อ restart apache
     
         systemctl restart apache2
 
