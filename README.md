@@ -34,7 +34,10 @@
         max_execution_time = 60
         date.timezone = Asia/Bangkok
         
-    ตัวอย่าง
+        
+ตัวอย่าง
+
+![3](https://user-images.githubusercontent.com/98762543/211158493-dae18e14-e93d-4006-a737-f921a3425d6c.PNG)
         
 
         
