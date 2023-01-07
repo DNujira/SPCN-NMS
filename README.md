@@ -249,6 +249,91 @@
         systemctl restart apache2
 
 
+ขั้นตอน setup Cacti บน webbrowser
+
+  เปิด browser และไปยัง ip ของเครื่อง host เช่น 
+  
+           http://localhost/cacti
+           
+           หรือ
+           
+           172.31.*.**/cacti
+           
+  จะเจอกับหน้า login ครั้งแรก 
+  user คือ admin
+  password คือ admin
+  
+  รูปตัวอย่าง
+  
+  ![15](https://user-images.githubusercontent.com/98762543/211158510-a54f2f06-2f72-471f-833b-3beb5bf3bbf2.PNG)
+  
+  เมื่อ login สำเร็จ ระบบจะให้เปลี่ยน password
+  
+  รูปตัวอย่าง
+  
+  ![16](https://user-images.githubusercontent.com/98762543/211158511-01bb6bc7-d93b-4363-b405-671f76d1e3d9.PNG)
+  
+  ติ๊กถูกที่ Accecpt GPL แล้วกด Begin
+  
+  รูปตัวอย่าง
+  
+  ![17](https://user-images.githubusercontent.com/98762543/211158512-c7c3995d-7244-43a7-a0fd-9283792aa54e.PNG)
+  
+  ต่อไปจะเป็นหน้าที่แสดงค่า Configure ต่าง ๆ ระบบจะบอกว่าต้องการอะไรเพิ่มหรือการตั้งค่าอะไรที่ผิดพลาด อย่างในตัวอย่างนี้ ระบบต้องการ Modules php intl 
+  ก็ให้ติดตั้งเพิ่มโดยใช้คำสั่ง
+        
+        apt-get install -y php-intl
+  
+  รูปตัวอย่าง
+  
+  ![18](https://user-images.githubusercontent.com/98762543/211158513-5e8d77df-9d03-4836-8e69-e492d3a12e20.PNG)
+  
+  ![19](https://user-images.githubusercontent.com/98762543/211158514-9f27f9b7-1844-467f-9f64-c68c1828e4ed.PNG)
+  
+  กด next ไปstepต่อไปเรื่อย ๆ 
+  
+  รูปตัวอย่าง
+  
+  ![20](https://user-images.githubusercontent.com/98762543/211158515-bd029abe-3441-442c-a7f0-0846b660a370.PNG)
+  
+  
+  ![21](https://user-images.githubusercontent.com/98762543/211158516-2e677f25-71b2-400a-be45-5b85f87ddc4b.PNG)
+  
+  ![22](https://user-images.githubusercontent.com/98762543/211158517-d9bac59b-8da7-4c5a-99d0-e9e6e5760130.PNG)
+  
+  ![23](https://user-images.githubusercontent.com/98762543/211158518-6a600ece-432e-4b68-a61f-c24b07b68e12.PNG)
+  
+  ![24](https://user-images.githubusercontent.com/98762543/211158519-ad9c3413-db30-4b2f-8d71-90d861f4ba34.PNG)
+  
+  ![25](https://user-images.githubusercontent.com/98762543/211158520-0d0841df-6b9f-454b-8229-f5617d5dfd1f.PNG)
+  
+  ![26](https://user-images.githubusercontent.com/98762543/211158521-fcbdb191-97c5-4d15-b67e-d5904728b5a3.PNG)
+  
+  ![27](https://user-images.githubusercontent.com/98762543/211158522-a8ec8706-2d32-437f-b37b-f0ba8396c9af.PNG)
+  
+  กด install
+  
+  รูปตัวอย่าง
+  
+  ![28](https://user-images.githubusercontent.com/98762543/211158524-0aa3348b-cf80-4b92-bc66-cd779c582f87.PNG)
+  
+  ![29](https://user-images.githubusercontent.com/98762543/211158526-2ccecd2b-6b52-44c1-9b7c-c6014b5e1fc0.PNG)
+  
+  ![30](https://user-images.githubusercontent.com/98762543/211158528-ddf40762-6f6c-40b0-8c2a-c36d9be24a1a.PNG)
+  
+  
+  เมื่อติดตั้งเสร็จ จะเจอหน้าเริ่มต้นของ cacti 
+  
+  รูปตัวอย่าง
+  
+  ![31](https://user-images.githubusercontent.com/98762543/211158530-80e0ef06-75e0-4e50-aa25-c668d55907db.PNG)
+  
+  วิธี Create devices 
+  
+  รูปตัวอย่าง
+  
+  
+
 
                 
 
