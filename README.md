@@ -4,8 +4,11 @@
  1. คำสั่งอัพเดท package ในระบบ และ set timezone ของเครื่องเป็นเขตเวลาของตัวเอง
 
         apt-get update -y
+        
         apt-get install snmp php-snmp rrdtool librrds-perl unzip curl git gnupg2 -y
+        
         timedatectl set-timezone Asia/Bangkok
+        
 
         
  2. คำสั่งติดตั้ง LAMP Server(Apache web server, MariaDB, PHP, MySQL)
@@ -18,23 +21,21 @@
 
  3. เมื่อติดตั้ง package เสร็จแล้วให้เข้าไปแก้ไข timezone และ date ตามคำสั่งต่อไปนี้
   
-        nano /etc/php/7.4/apache2/php.ini
+        nano /etc/php/*/apache2/php.ini
+        
+        nano /etc/php/*/cli/php.ini
+        
+        ( * คือ version ของ php เปลี่ยนให้ตรงกับ version ที่ตัวเองใช้อยู่ )
+        
 
-    แก้ไขวันที่และเวลาให้เป็น ดังนี้
+    แก้ไขวันที่และเวลาให้เป็นและค่า configuration ของทั้ง 2 ไฟล์ให้เป็นดังนี้
 
         memory_limit = 512M
         max_execution_time = 60
         date.timezone = Asia/Bangkok
         
-    เมื่อแก้ไขเรียบร้อยแล้วให้ save และไปแก้ไข timezone และ date ของไฟล์ php.ini อื่นๆโดยใช้คำสั่งดังนี้
+    ตัวอย่าง
         
-        nano /etc/php/7.4/cli/php.ini
-        
-    แก้ไขวันที่และเวลาให้เป็น ดังนี้
-
-        memory_limit = 512M
-        max_execution_time = 60
-        date.timezone = Asia/Kolkata
 
         
  4. เมื่อแก้ไขเรียบร้อยแล้วให้ restart Apache โดยใช้คำสั่ง ดังนี้
