@@ -37,17 +37,22 @@
         
 ตัวอย่าง
 
+
 ![3](https://user-images.githubusercontent.com/98762543/211158493-dae18e14-e93d-4006-a737-f921a3425d6c.PNG)
+![4](https://user-images.githubusercontent.com/98762543/211158494-1acba1b5-98fe-4303-b872-14c475e98f29.PNG)
+![5](https://user-images.githubusercontent.com/98762543/211158495-8b23496c-1aaa-4ef8-8db3-6e021d9078e5.PNG)
         
 
         
  4. เมื่อแก้ไขเรียบร้อยแล้วให้ restart Apache โดยใช้คำสั่ง ดังนี้
   
         systemctl restart apache2
-     
+
+
 **Configure MariaDB Server**
 ***
 **Cacti ใช้ MariaDB เป็น database Backend** 
+
 
  5. เข้าไปแก้ไขค่าใน MariaDB โดยใช้คำสั่งดังนี้ 
 
@@ -71,6 +76,9 @@
         innodb_doublewrite = OFF
         #collation-server = utf8mb4_general_ci
         
+รูปตัวอย่าง
+![6](https://user-images.githubusercontent.com/98762543/211158496-23b9033b-ff5b-488c-9dd5-5bd3100739d1.PNG)
+        
     บันทึกและ restart MariaDB ใหม่ โดยใช้คำสั่งต่อไปนี้
  
         systemctl restart mariadb
@@ -85,9 +93,17 @@
         GRANT ALL ON cacti.* TO cactiuser@localhost IDENTIFIED BY 'cactiuser';
         flush privileges;
         exit;
+   
+   
+รูปตัวอย่าง
+![7](https://user-images.githubusercontent.com/98762543/211158498-c1595016-fc17-4067-ae84-ddcd611a192f.PNG)
         
-        และใช้คำสั่งต่อไปนี้เพื่อนำเข้าเวลาของเครื่องเราไปยัง MySQL
+
+และใช้คำสั่งต่อไปนี้เพื่อนำเข้าเวลาของเครื่องเราไปยัง MySQL   
+
         mysql mysql < /usr/share/mysql/mysql_test_data_timezone.sql
+        
+        
         
  7. Login เข้าไปใน MariaDB shell เพื่อให้สิทธิ์ timezone ใน MySQL โดยใช้คำสั่งต่อไปนี้
 
@@ -96,29 +112,37 @@
         flush privileges;
         exit;
         
+รูปตัวอย่าง  
+![8](https://user-images.githubusercontent.com/98762543/211158499-ce13d647-32da-455e-b403-b24ea4ca0c68.PNG)
+
+        
 **Install and Configure Cacti**
 ***
  8. Dowload Cacti เวอร์ชั่นล่าสุดโดยใช้คำสั่งต่อไปนี้
 
         wget https://www.cacti.net/downloads/cacti-latest.tar.gz
         
-    ใช้คำสั่งต่อไปนี้เพื่อแตกไฟล์ที่ Dowload มา
+
+รูปตัวอย่าง
+![9](https://user-images.githubusercontent.com/98762543/211158501-ea8f2567-06e3-477c-bb5d-f44ceaa0832d.PNG)
+   
+   ใช้คำสั่งต่อไปนี้เพื่อแตกไฟล์ที่ Dowload มา
    
         tar -zxvf cacti-latest.tar.gz
 
-    ใช้คำสั่งต่อไปนี้เพื่อใช้ย้าย Directory ที่แตกไฟล์ออกมาไปยัง Directory ของ Apache
+   ใช้คำสั่งต่อไปนี้เพื่อใช้ย้าย Directory ที่แตกไฟล์ออกมาไปยัง Directory ของ Apache
    
         mv cacti-1* /var/www/html/cacti
 
-    ใช้คำสั่งต่อไปนี้นำเข้า database ไปที่ cactiDB
+   ใช้คำสั่งต่อไปนี้นำเข้า database ไปที่ cactiDB
    
         mysql cacti < /var/www/html/cacti/cacti.sql
 
-    เข้าไปที่ไฟล์ config.php ของ Cacti แล้วกำหนดค่าดังนี้
+   เข้าไปที่ไฟล์ config.php ของ Cacti แล้วกำหนดค่าดังนี้
    
         nano /var/www/html/cacti/include/config.php     //คำสั่งเข้าไปในไฟล์ config.php
         
-    ตรวจสอบชื่อ, username, password ของ database โดยมีค่า Default ดังต่อไปนี้
+   ตรวจสอบชื่อ, username, password ของ database โดยมีค่า Default ดังต่อไปนี้
    
         $database_type 	= 'mysql';
         $database_default  = 'cacti';
