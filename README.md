@@ -1,10 +1,11 @@
 # SPCN-NMS
 # Cacti
 **ขั้นตอนการติดตั้งและ Configure Cacti**
- 1. คำสั่งอัพเดท package ในระบบ
+ 1. คำสั่งอัพเดท package ในระบบ และ set timezone ของเครื่องเป็นเขตเวลาของตัวเอง
 
         apt-get update -y
         apt-get install snmp php-snmp rrdtool librrds-perl unzip curl git gnupg2 -y
+        timedatectl set-timezone Asia/Bangkok
 
         
  2. คำสั่งติดตั้ง LAMP Server(Apache web server, MariaDB, PHP, MySQL)
