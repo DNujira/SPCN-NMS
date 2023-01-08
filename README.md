@@ -291,13 +291,13 @@
   
   ![19](https://user-images.githubusercontent.com/98762543/211158514-9f27f9b7-1844-467f-9f64-c68c1828e4ed.PNG)
   
-  กด next ไปstepต่อไปเรื่อย ๆ 
+  กด next ไป Step ต่อไปเรื่อยๆ 
   
   รูปตัวอย่าง
   
   ![20](https://user-images.githubusercontent.com/98762543/211158515-bd029abe-3441-442c-a7f0-0846b660a370.PNG)
   
-  
+  - เมื่อ Pre-Installation Checks ผ่าน ให้ทำการกด Next
   ![21](https://user-images.githubusercontent.com/98762543/211158516-2e677f25-71b2-400a-be45-5b85f87ddc4b.PNG)
   
   ![22](https://user-images.githubusercontent.com/98762543/211158517-d9bac59b-8da7-4c5a-99d0-e9e6e5760130.PNG)
