@@ -1,5 +1,7 @@
 # SPCN-NMS
 # Cacti
+![5142645](https://user-images.githubusercontent.com/115150753/211187480-30a5fb2c-9f23-4f67-b472-c9cab383c5c9.png)
+
 **ขั้นตอนการติดตั้งและ Configure Cacti**
  1. คำสั่งอัพเดท package ในระบบ และ set timezone ของเครื่องเป็นเขตเวลาของตัวเอง
 
