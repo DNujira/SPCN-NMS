@@ -314,14 +314,11 @@
   
   - เลือก Template Setup ที่ต้องการติดตั้ง 
   ![26](https://user-images.githubusercontent.com/98762543/211158521-fcbdb191-97c5-4d15-b67e-d5904728b5a3.PNG)
-  
-  -
+  - กด Next 
   ![27](https://user-images.githubusercontent.com/98762543/211158522-a8ec8706-2d32-437f-b37b-f0ba8396c9af.PNG)
   
-  กด install
-  
-  รูปตัวอย่าง
-  
+  - กด Install เพื่อติดตั้ง
+
   ![28](https://user-images.githubusercontent.com/98762543/211158524-0aa3348b-cf80-4b92-bc66-cd779c582f87.PNG)
   
   ![29](https://user-images.githubusercontent.com/98762543/211158526-2ccecd2b-6b52-44c1-9b7c-c6014b5e1fc0.PNG)
