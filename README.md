@@ -317,18 +317,19 @@
   - กด Next 
   ![27](https://user-images.githubusercontent.com/98762543/211158522-a8ec8706-2d32-437f-b37b-f0ba8396c9af.PNG)
   
-  - กด Install เพื่อติดตั้ง
+  - กด Confirm Installation และกด Install เพื่อติดตั้ง
 
   ![28](https://user-images.githubusercontent.com/98762543/211158524-0aa3348b-cf80-4b92-bc66-cd779c582f87.PNG)
   
+  - รอติดตั้งจนสำเร็จ
   ![29](https://user-images.githubusercontent.com/98762543/211158526-2ccecd2b-6b52-44c1-9b7c-c6014b5e1fc0.PNG)
   
   ![30](https://user-images.githubusercontent.com/98762543/211158528-ddf40762-6f6c-40b0-8c2a-c36d9be24a1a.PNG)
   
   
-  เมื่อติดตั้งเสร็จ จะเจอหน้าเริ่มต้นของ cacti 
+  - เมื่อติดตั้งเสร็จ จะเจอหน้าเริ่มต้นของ cacti 
   
-  รูปตัวอย่าง
+  รูปเมื่อติดตั้งเสร็จเรียบร้อย
   
   ![40](https://user-images.githubusercontent.com/98762543/211161007-7fee833c-b344-4c12-97a8-4c158691e6f0.PNG)
   
