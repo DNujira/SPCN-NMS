@@ -312,8 +312,10 @@
   - ตั้งค่า Default Profile และ Default Automation Network
   ![25](https://user-images.githubusercontent.com/98762543/211158520-0d0841df-6b9f-454b-8229-f5617d5dfd1f.PNG)
   
+  - เลือก Template Setup ที่ต้องการติดตั้ง 
   ![26](https://user-images.githubusercontent.com/98762543/211158521-fcbdb191-97c5-4d15-b67e-d5904728b5a3.PNG)
   
+  -
   ![27](https://user-images.githubusercontent.com/98762543/211158522-a8ec8706-2d32-437f-b37b-f0ba8396c9af.PNG)
   
   กด install
