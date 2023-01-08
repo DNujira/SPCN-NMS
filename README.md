@@ -354,9 +354,11 @@
   **วิธีลง Plugin Thold**
   
   ให้เข้าไปที่ /var/www/html/cacti/plugins ให้นำไฟล์ที่โหลดมาจาก Github วางไว้ในนี้ ขั้นต่อไปให้ไปที่ Plugin และกด Install จากนั้นจะเห็น thold ด้านบน ซึ่งเป็น Plugin ที่ถูกเพิ่มเข้ามา 
-  
+
+  - Download Plugin Thold มาลงไว้ที่ /var/www/html/cacti/plugins
   ![38](https://user-images.githubusercontent.com/98762543/211158540-3434492d-ad4d-4a05-ae8f-59a981b90f94.PNG)
   
+  - กดไปที่ Tab Configuration และกดไปที่ Plugins
   ![39](https://user-images.githubusercontent.com/98762543/211158541-4a2e2ca0-a303-476e-90b6-7590eb341f9d.PNG)
   
   ![36](https://user-images.githubusercontent.com/98762543/211158536-60e0c0de-8f65-4c91-ae00-d6ed5b7ec37c.PNG)
