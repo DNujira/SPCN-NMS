@@ -78,7 +78,6 @@
         innodb_io_capacity_max = 10000
         innodb_buffer_pool_instances = 50
         innodb_doublewrite = OFF
-        #collation-server = utf8mb4_general_ci
  
  
 รูปตัวอย่าง
@@ -330,7 +329,7 @@
   
   ![40](https://user-images.githubusercontent.com/98762543/211161007-7fee833c-b344-4c12-97a8-4c158691e6f0.PNG)
   
-  วิธี Create devices 
+  **วิธี Create devices** 
   
   รูปตัวอย่าง
   
@@ -340,7 +339,7 @@
   
   ![33](https://user-images.githubusercontent.com/98762543/211158532-f12082b9-9f4b-4606-b2fc-9eebebb76e4d.PNG)
   
-  วิธี Create graphs 
+  **วิธี Create graphs**
   
   ![34](https://user-images.githubusercontent.com/98762543/211158534-6251f662-4895-4aff-911c-04a6d6aa65c1.PNG)
   
