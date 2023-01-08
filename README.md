@@ -339,7 +339,7 @@
      - Location เลือก None
      - Device Template เลือกเป็น Local Linux Machine
   ![32](https://user-images.githubusercontent.com/98762543/211158531-62ec09a3-8c5c-412e-91e2-0027c180ef27.PNG)
-  
+  - จะมี Graph ขึ้นมาให้อัตโนมัติ และสามารถเพิ่ม Graph ได้
   ![33](https://user-images.githubusercontent.com/98762543/211158532-f12082b9-9f4b-4606-b2fc-9eebebb76e4d.PNG)
   
   **วิธี Create graphs**
