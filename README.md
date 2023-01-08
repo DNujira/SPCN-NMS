@@ -329,14 +329,12 @@
   
   - เมื่อติดตั้งเสร็จ จะเจอหน้าเริ่มต้นของ cacti 
   
-  รูปเมื่อติดตั้งเสร็จเรียบร้อย
+  - รูปเมื่อติดตั้งเสร็จเรียบร้อย
   
   ![40](https://user-images.githubusercontent.com/98762543/211161007-7fee833c-b344-4c12-97a8-4c158691e6f0.PNG)
   
   **วิธี Create devices** 
-  
-  รูปตัวอย่าง
-  
+  - คลิกที่ Management แล้วเลือก Devices และคลิกที่ สัญลักษณ์ +(บวก) ด้านบน
   ![31](https://user-images.githubusercontent.com/98762543/211158530-80e0ef06-75e0-4e50-aa25-c668d55907db.PNG)
   
   ![32](https://user-images.githubusercontent.com/98762543/211158531-62ec09a3-8c5c-412e-91e2-0027c180ef27.PNG)
@@ -344,7 +342,7 @@
   ![33](https://user-images.githubusercontent.com/98762543/211158532-f12082b9-9f4b-4606-b2fc-9eebebb76e4d.PNG)
   
   **วิธี Create graphs**
-  
+
   ![34](https://user-images.githubusercontent.com/98762543/211158534-6251f662-4895-4aff-911c-04a6d6aa65c1.PNG)
   
   ![35](https://user-images.githubusercontent.com/98762543/211158535-cf6b76d3-1a39-4203-a186-7b0797e91d88.PNG)
