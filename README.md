@@ -336,7 +336,8 @@
   **วิธี Create devices** 
   - คลิกที่ Management แล้วเลือก Devices และคลิกที่ สัญลักษณ์ +(บวก) ด้านบน
   ![31](https://user-images.githubusercontent.com/98762543/211158530-80e0ef06-75e0-4e50-aa25-c668d55907db.PNG)
-  
+  - ใส่ข้อมูลต่างๆ
+     - Description ใส่ชื่อ
   ![32](https://user-images.githubusercontent.com/98762543/211158531-62ec09a3-8c5c-412e-91e2-0027c180ef27.PNG)
   
   ![33](https://user-images.githubusercontent.com/98762543/211158532-f12082b9-9f4b-4606-b2fc-9eebebb76e4d.PNG)
