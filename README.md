@@ -303,6 +303,7 @@
   - เมื่อ Directory Permission Checks ผ่าน ให้ทำการกด Next
   ![22](https://user-images.githubusercontent.com/98762543/211158517-d9bac59b-8da7-4c5a-99d0-e9e6e5760130.PNG)
   
+  - ตรวจสอบ Path Locations ให้เรียบร้อย
   ![23](https://user-images.githubusercontent.com/98762543/211158518-6a600ece-432e-4b68-a61f-c24b07b68e12.PNG)
   
   ![24](https://user-images.githubusercontent.com/98762543/211158519-ad9c3413-db30-4b2f-8d71-90d861f4ba34.PNG)
