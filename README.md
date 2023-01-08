@@ -299,7 +299,8 @@
   
   - เลือก New Primary Server และตรวจสอบ Local Database Connection Information ให้เรียบร้อย
   ![21](https://user-images.githubusercontent.com/98762543/211158516-2e677f25-71b2-400a-be45-5b85f87ddc4b.PNG)
-  
+
+  - เมื่อ Directory Permission Checks ผ่าน ให้ทำการกด Next
   ![22](https://user-images.githubusercontent.com/98762543/211158517-d9bac59b-8da7-4c5a-99d0-e9e6e5760130.PNG)
   
   ![23](https://user-images.githubusercontent.com/98762543/211158518-6a600ece-432e-4b68-a61f-c24b07b68e12.PNG)
