@@ -90,7 +90,7 @@
  
         systemctl restart mariadb
         
- 6. Login เข้า MariDB shell โดยใช้คำสั่งต่อไปนี้
+ 6. Login เข้า MariaDB shell โดยใช้คำสั่งต่อไปนี้
         
         mysql -u root -p
         
@@ -275,7 +275,7 @@
   
   ![16](https://user-images.githubusercontent.com/98762543/211158511-01bb6bc7-d93b-4363-b405-671f76d1e3d9.PNG)
   
-  ติ๊กถูกที่ Accecpt GPL แล้วกด Begin
+  ติ๊กถูกที่ Accept GPL แล้วกด Begin
   
   รูปตัวอย่าง
   
