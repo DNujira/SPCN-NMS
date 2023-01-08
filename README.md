@@ -294,10 +294,10 @@
   กด next ไป Step ต่อไปเรื่อยๆ 
   
   รูปตัวอย่าง
-  
+  - เมื่อ Pre-Installation Checks ผ่าน ให้ทำการกด Next
   ![20](https://user-images.githubusercontent.com/98762543/211158515-bd029abe-3441-442c-a7f0-0846b660a370.PNG)
   
-  - เมื่อ Pre-Installation Checks ผ่าน ให้ทำการกด Next
+  - เลือก New Primary Server และตรวจสอบ Local Database Connection Information ให้เรียบร้อย
   ![21](https://user-images.githubusercontent.com/98762543/211158516-2e677f25-71b2-400a-be45-5b85f87ddc4b.PNG)
   
   ![22](https://user-images.githubusercontent.com/98762543/211158517-d9bac59b-8da7-4c5a-99d0-e9e6e5760130.PNG)
