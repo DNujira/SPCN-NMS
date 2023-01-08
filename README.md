@@ -306,6 +306,7 @@
   - ตรวจสอบ Path Locations ให้เรียบร้อย
   ![23](https://user-images.githubusercontent.com/98762543/211158518-6a600ece-432e-4b68-a61f-c24b07b68e12.PNG)
   
+  - อ่าน Statement ให้เรียบร้อย และเมื่ออ่านเสร็จแล้วให้ติ๊กที่ I have read this statement
   ![24](https://user-images.githubusercontent.com/98762543/211158519-ad9c3413-db30-4b2f-8d71-90d861f4ba34.PNG)
   
   ![25](https://user-images.githubusercontent.com/98762543/211158520-0d0841df-6b9f-454b-8229-f5617d5dfd1f.PNG)
