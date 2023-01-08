@@ -352,6 +352,7 @@
 
    
   **วิธีลง Plugin Thold**
+  **
   Plugin thold ให้เข้าไปที่ /var/www/html/cacti/plugins ให้นำไฟล์ที่โหลดมาจาก Github วางไว้ในนี้ ขั้นต่อไปให้ไปที่ Plugin และกด Install จากนั้นจะเห็น thold ด้านบน ซึ่งเป็น Plugin ที่ถูกเพิ่มเข้ามา 
   
   รูปตัวอย่าง
