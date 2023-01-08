@@ -361,10 +361,11 @@
   - กดไปที่ Tab Configuration และกดไปที่ Plugins
   ![39](https://user-images.githubusercontent.com/98762543/211158541-4a2e2ca0-a303-476e-90b6-7590eb341f9d.PNG)
   
+  - ทำการตั้งค่า Threshold ของ Graph
   ![36](https://user-images.githubusercontent.com/98762543/211158536-60e0c0de-8f65-4c91-ae00-d6ed5b7ec37c.PNG)
   
   ![37](https://user-images.githubusercontent.com/98762543/211158539-ff1c9d70-be4f-421b-8d90-0316a25a282a.PNG)
-
+  - ตรวจสอบแจ้งเตือนได้จาก Tab Log
   ![chrome_4dKLWNlvpW](https://user-images.githubusercontent.com/115150753/211187806-8607e2c4-46f4-492d-9ec4-21eb368fb698.png)
 
       
