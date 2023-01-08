@@ -12,14 +12,11 @@
         timedatectl set-timezone Asia/Bangkok
         
 
-        
+**Install LAMP Server**
+***
  2. คำสั่งติดตั้ง LAMP Server(Apache web server, MariaDB, PHP, MySQL)
 
         apt-get install apache2 mariadb-server php php-mysql libapache2-mod-php php-xml php-ldap php-mbstring php-gd php-gmp -y
-
-
-**Install LAMP Server**
-***
 
  3. เมื่อติดตั้ง package เสร็จแล้วให้เข้าไปแก้ไข timezone และ date ตามคำสั่งต่อไปนี้
   
