@@ -345,7 +345,8 @@
   **วิธี Create graphs**
   - กดที่ Create และ กดไปที่ New Graphs 
      - เลือก Device แล้วกดไปที่ New Graph Template แล้วทำการเลือก Graph และกด Create
-  ![34](https://user-images.githubusercontent.com/98762543/211158534-6251f662-4895-4aff-911c-04a6d6aa65c1.PNG)
+  ![Screenshot 2023-01-18 184435](https://user-images.githubusercontent.com/115150753/213163894-07f7e1d0-2c40-4fba-b43f-3bf8d9a7f71c.png)
+
   
   - กดที่ Tab Graphs ด้านบน จะมี Graph ของ Device ที่เราเลือกแสดงขึ้นมา
   ![35](https://user-images.githubusercontent.com/98762543/211158535-cf6b76d3-1a39-4203-a186-7b0797e91d88.PNG)
