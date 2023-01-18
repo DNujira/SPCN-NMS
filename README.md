@@ -351,8 +351,9 @@
   - กดที่ Tab Graphs ด้านบน จะมี Graph ของ Device ที่เราเลือกแสดงขึ้นมา
   ![35](https://user-images.githubusercontent.com/98762543/211158535-cf6b76d3-1a39-4203-a186-7b0797e91d88.PNG)
   - วิธีอ่าน Graph
-     - 
-     - 
+     - แกน X คือค่าเวลาของ Graph
+     - แกน Y คือค่าต่างๆที่ Graph อ่าน เช่น ค่า Traffic , ค่าการ Load , ค่าการประมวลผล 
+     
   ![Screenshot 2023-01-18 184530](https://user-images.githubusercontent.com/115150753/213164108-a36794b4-00cb-4f01-b608-d1d0fda626a2.png)
 
   ![Screenshot 2023-01-18 184629](https://user-images.githubusercontent.com/115150753/213164123-ab92555b-41b6-465f-a7b0-eea7fcdc82b2.png)
